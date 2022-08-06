@@ -67,6 +67,14 @@
                                     <div class="text-center">
                                         <button type="submit" class="btn btn-primary btn-block">Login</button>
                                     </div>
+
+                                    <p class="text-center font-weight-bold mt-4">OR</p>
+
+                                    <div class="text-center">
+                                        <a href="/register" class="btn btn-primary btn-block">Register</a>
+                                    </div>
+
+
                                 </form>
 
                             </div>
