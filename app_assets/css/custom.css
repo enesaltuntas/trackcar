@@ -1,0 +1,69 @@
+
+    .header-right .notification_dropdown.total_epx .nav-link {
+        padding-top: 17px !important;
+    }
+
+    #countdown {
+        margin-bottom: 25px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        background-color: #3e454d;
+    }
+    #countdown li {
+        display: inline-block;
+        font-size: .7em;
+        list-style-type: none;
+        padding: 1em;
+        text-transform: uppercase;
+    }
+
+    #countdown li span {
+        display: block;
+        font-size: 4.5rem;
+    }
+
+    #countdown .emoji {
+        display: none;
+        padding: 1rem;
+    }
+
+    #countdown .emoji span {
+        font-size: 4rem;
+        padding: 0 .5rem;
+    }
+
+    @media all and (max-width: 768px) {
+        #countdown h1 {
+            font-size: 1.5rem;
+        }
+
+        #countdown li {
+            font-size: 1.125rem;
+            padding: .75rem;
+        }
+
+        #countdown li span {
+            font-size: 3.375rem;
+        }
+    }
+
+    #example_length {float: left;}
+    #example_filter {float: right;margin-top: 15px;}
+    #example_filter input {margin-left: 10px;}
+
+    @media (max-width: 768px) {
+        .navbar-nav .total_epx {display: none;}
+    }
+    @media (min-width: 769px) {
+        .total_epx_mobile {display: none;}
+    }
+
+    .countdown_timer {
+        text-align: center;
+        margin: 0;
+        font-size: 3rem;
+    }
+
+    input {
+        color: black !important;
+    }
